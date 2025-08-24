@@ -1,0 +1,152 @@
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.upper, .footer {
+    background-color: #1F2937;
+    color: white;
+}
+
+/* Upper */
+
+.upper {
+    padding-left: 200px;
+    padding-right: 200px
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header ul {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  gap: 24px;
+  font-size: 18px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.left, .right {
+    display: flex;
+}
+
+.upper2 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+button {
+    width: 100px;
+    height: 30px;
+    background-color: blue;
+    border: 2px solid rgb(24, 18, 205);
+    color: white;
+    border-radius: 5px;
+    font-weight: 300;
+}
+
+.placeholder {
+    width: 400px;
+    height: 200px;
+    background-color: aliceblue;
+    color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Middle1 */
+
+.middle1 {
+    text-align: center;
+}
+
+.middle1 .container {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+    margin-bottom: 50px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.text {
+    width: 120px;
+}
+
+.projects {
+    width: 150px;
+    height: 150px;
+    border: 3px solid blue;
+    color: blue;
+    border-radius: 15px;
+}
+
+/* Middle2 */
+
+.middle2 {
+    background-color: #E5E7EB;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 80px;
+}
+
+.quote {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.speaker {
+    font-size: 15px;
+    text-align: right;
+}
+
+/* Middle3 */
+.middle3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+}
+
+.middle3 .container {
+    background-color: #3882F6;
+    width: 600px;
+    padding: 20px;
+    border-radius: 10px;
+
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.middle3 button {
+    border: 3px solid white;
+    background-color: #3882F6;
+}
+
+/* Footer */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
